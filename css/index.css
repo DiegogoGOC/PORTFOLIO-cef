@@ -1,0 +1,30 @@
+body{
+    background-color: #5699a0;
+    width: 1000px;
+    margin:auto;
+    text-align: center;
+    color: white;
+    font-family:Roboto, light ;
+}
+#remonte img{
+    width: 60px;
+}
+#band{
+    width: 1000px;
+    height: 200px;
+}
+nav img {
+    width: 60px;
+}
+#remonte{
+    position: fixed;
+    left: 1350px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 60px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/phone.css">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="../js-copy.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a id="remonte" href="#"><img src="./img/rmt.png" alt=""></a>
+      <img id="band" src="./img/bandrole.png" alt="">
+      <nav>
+        <a href="./index.html"  title="Acceuille">
+          <img src="./img/qui2.png" alt="">
+        </a>
+          <a href="./qui.html"  title="QUI suis-je ?">
+              <img src="./img/qui2.png" alt="">
+          </a>
+          <a href="./projet.html"  title="projet">
+              <img src="./img/projet2.png" alt="">
+          </a>
+          <a href="./phone.html" title="contact">
+            <img src="./img/appel-telephonique.png" alt="">
+        </a>
+      </nav>
+    <hr/>
+    </header>
+    <aside>
+        <nav>
+            <a href="tel:0781500885" target="_blank" title="numero telephonique : 07 81 50 08 85">
+                <img src="./img/appel-telephonique.png" alt="">
+            </a>
+            <a href="mailto:ael.coic@gmail.com" target="_blank" title="email : ael.coic@gmail.com">
+                <img src="./img/email.png" alt="">
+            </a>
+            <a href="https://www.google.com/maps/place/Douarnenez+Tr%C3%A9boul/@48.0957526,-4.3472889,17z/data=!3m1!4b1!4m6!3m5!1s0x4816d0be5a92ec21:0x344d3b1a4adb1d82!8m2!3d48.095749!4d-4.344714!16s%2Fg%2F11fm5lplhk?entry=ttu
+            " target="_blank" title="adresse: 29100 DOUARNENEZ">
+                <img src="./img/loc.png" alt="">
+            </a>
+        </nav>
+    </aside> 
+    <main>
+      <h2>ENVOIE EMAIL</h2>
+      <form id="form">
+        <div class="field">
+          <label for="subject">subject</label>
+          <input type="text" name="subject" id="subject">
+        </div>
+        <div class="field">
+          <label for="message">message</label>
+          <input type="text" name="message" id="message">
+        </div>
+        <div class="field">
+          <label for="sendername">nom</label>
+          <input type="text" name="sendername" id="sendername">
+        </div>
+        <div class="field">
+          <label for="replyto">repondre à</label>
+          <input type="text" name="replyto" id="replyto">
+        </div>
+      
+        <input type="submit" id="button" value="Send Email" >
+      </form>
+      
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+      
+      <script type="text/javascript">
+        emailjs.init('XYDe6NvsBI1TIwLBM')
+      </script>
+      
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+      
+      <script type="text/javascript">
+        emailjs.init('XYDe6NvsBI1TIwLBM')
+      </script>
+    </main>
+    <footer>
+      <hr/>
+      <a href="https://www.facebook.com/privacy/consent/?flow=ad_free_subscription&params%5Bafs_variant%5D=first_time&source=ad_free_subscription_blocking_flow" target="_blank"><img src="./img/facebook.png"  alt=""></a>
+      <a href="https://github.com/DiegogoGOC" target="_blank"><img src="./img/github.png"  alt=""></a>
+      <p> <time datetime="2024-04-22T22:06+14:00">08/05/2024</time> </p>
+    </footer>
+  </body>
+</html>

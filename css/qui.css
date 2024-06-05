@@ -1,0 +1,7 @@
+#portpholioQui{
+    display: flex;
+    justify-content: space-between;
+}
+#portpholioQui img{
+    width: 100px;
+}

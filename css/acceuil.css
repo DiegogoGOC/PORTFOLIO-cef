@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+main {
+    display: flex;
+    justify-content: space-around;
+}
+main img{
+    border-radius: 100% 30%;
+    width: 350px;
+    height: 430px;
+
+}
+main section{
+    font-size: 300%;
+    top: 500px;
+    font-family: Anton , Pacifico;
+
+}
